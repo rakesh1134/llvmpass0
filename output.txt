@@ -1,0 +1,58 @@
+Function-Name:	__cxx_global_var_init
+Ret type:	void
+call
+call
+ret
+
+
+Function-Name:	_Z3addii
+Ret type:	i32
+alloca
+alloca
+store
+store
+load
+load
+add
+ret
+
+
+Function-Name:	_Z3subii
+Ret type:	i32
+alloca
+alloca
+store
+store
+load
+load
+sub
+ret
+
+
+Function-Name:	_Z3prdii
+Ret type:	i32
+alloca
+alloca
+store
+store
+load
+load
+mul
+ret
+
+
+Function-Name:	main
+Ret type:	i32
+alloca
+store
+call
+call
+ret
+
+
+Function-Name:	_GLOBAL__sub_I_calc.cpp
+Ret type:	void
+call
+ret
+
+
